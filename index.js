@@ -116,7 +116,7 @@ function findStudentById(studentId, students) {
 //   console.log(findStudentById(10,students));
   
 
-/* ----------------- Q.7 ----------------- */
+/* ----------------- Q.8 ----------------- */
 function getStudentsByCourse(course, students) {
     return students.filter(student => student.courses.includes(course));
   }
